@@ -28,16 +28,14 @@ Free and lighweight IDE by Microsoft for developers.
   Descriptions: Tab to show tests in Visual Studio Code
   Url: https://marketplace.visualstudio.com/items?itemName=LittleFoxTeam.vscode-python-test-adapter
   
-## Run
-
-### Instalation
+## Instalation
 - Install Python 3
 - Run this command to install packages:
 ``` python
 pip install -r requirements.txt
 ```
 
-## Instructions:
+## Running
 - Open the Visual Studio Code and select the tab "Run and Debug"
 - Choose and run one option:
   - Main: Run main script
