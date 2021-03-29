@@ -1,0 +1,46 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Main",
+            "type": "python",
+            "request": "launch",
+            "module": "src.main"
+        },
+        {
+            "name": "Unit Tests",
+            "type": "python",
+            "request": "launch",
+            "module": "pytest",
+            "args": [
+                "src/tests"
+            ]
+        },
+        {
+            "name": "Coverage Report",
+            "type": "python",
+            "request": "launch",
+            "module": "pytest",
+            "args": [
+                "-v",
+                "--cov-report=html",
+                "--cov=src"
+            ]
+        },
+        {
+            "name": "Coverage Analysis",
+            "type": "python",
+            "request": "launch",
+            "module": "pytest",
+            "args": [
+                "-v",
+                "--cov-report",
+                "term-missing:skip-covered",
+                "--cov=src"
+            ]
+        }
+    ]
+}
