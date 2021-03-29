@@ -40,5 +40,11 @@ pip install -r requirements.txt
 - Choose and run one option:
   - Main: Run main script
   - Unit Tests: Run unit tests
+  ![image](https://user-images.githubusercontent.com/4460324/112867245-101e2200-9091-11eb-96da-5608a187e8fd.png)
+
   - Coverage Report: Run coverage tests
+  ![image](https://user-images.githubusercontent.com/4460324/112867036-d3eac180-9090-11eb-88d2-81bc618055be.png)
+
   - Coverage Analysis: Run detailed coverage tests
+  ![image](https://user-images.githubusercontent.com/4460324/112867465-570c1780-9091-11eb-870d-354927e11526.png)
+
