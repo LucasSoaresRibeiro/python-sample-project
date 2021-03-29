@@ -2,7 +2,7 @@
 Sample Python 3 project with unit and coverage tests
 
 ## Packages
-- setuptools: Version
+- setuptools: Versioning control
 - pytest: Unit tests
 - pytest-cov: Coverage tests
 - requests: Lib to GET, POST and another HTTP requests
